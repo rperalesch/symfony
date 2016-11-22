@@ -1,0 +1,7 @@
+rpc_user:
+    resource: "@RPCUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
